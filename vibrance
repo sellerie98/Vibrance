@@ -1,0 +1,15 @@
+#!/bin/bash
+if [$(nvidia-settings --query DigitalVibrance |grep 1023 |grep -v valid) == ""]
+then
+	nvidia-settings --assign DigitalVibrance=1023
+	if [ $(echo $NV1) == ""]
+		then
+		echo "Vibrance Enabled (All)"
+	fi
+else
+	nvidia-settings --assign DigitalVibrance=0
+	if [$(nvidia-settings --query DigitalVibrance |grep 1023 |grep -v valid) != ""]
+	then
+		echo "Vibrance Disabled (All)"
+	fi
+fi
