@@ -1,2 +1,2 @@
 # Vibrance
-My simple vibrance script to toggle colour vibrance on all active displays.
+My simple vibrance bash script to toggle colour vibrance on all active displays.
