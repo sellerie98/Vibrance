@@ -1,2 +1,2 @@
 # Vibrance
-My simple vibrance script to set color vibrance on all active displays.
+My simple vibrance script to toggle colour vibrance on all active displays.
