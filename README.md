@@ -8,5 +8,5 @@ Depends on:
 
 If you want Steam to increase color vibrance for you with this script when starting csgo via Steam and disable it when you leave csgo again:
 - Move the script into the folder where your csgo files are installed
-- Enter "./vibrance; %command% && ./vibrance" as launch options on csgo in Steam
+- Enter `./vibrance; %command% <launch options, such as "-novid" etc.> && ./vibrance` as launch options on csgo in Steam
 - profit
